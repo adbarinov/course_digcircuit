@@ -1,6 +1,3 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });</script>
-
 # Контрольное мероприятие № 3
 
 ## Последовательностные схемы
@@ -60,6 +57,6 @@
 
 | Номер | Генератор                 |
 |-------|---------------------------|
-| 1     | Генератор Геффа ![Alt text](image.png)          |
-| 2     | Генератор "стоп-пошёл" ![Alt text](image-5.png)   |
-| 3     | Чередующийся "стоп-пошёл" ![Alt text](image-3.png) |
+| 1     | Генератор Геффа ![Alt text](files/figure/image.png)          |
+| 2     | Генератор "стоп-пошёл" ![Alt text](files/figure/image-5.png)   |
+| 3     | Чередующийся "стоп-пошёл" ![Alt text](files/figure/image-3.png) |
