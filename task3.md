@@ -74,9 +74,10 @@ always @(posedge clk) begin
   $fdisplay(fg, "%b", outPRS);
 end
 
-//по достижению окончания времени моделирования закрыть  файл и остановить моделирование
+//по достижению 10000 тактов моделирования закрыть файл и остановить моделирование
 initial begin
-  #(TIME_MODEL) $fclose(fg);
+  repeat(10000) @(posedge clk);
+  $fclose(fg);
   $stop;
 end
 
